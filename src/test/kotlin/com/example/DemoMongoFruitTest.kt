@@ -17,6 +17,7 @@ class DemoMongoFruitTest {
 
     @Inject
     lateinit var bananaRepoV1: BananaRepoV1
+    
     @Test
     fun testFruitV1() {
         val fruit = fruitRepoV1.save(FruitV1("123"))
